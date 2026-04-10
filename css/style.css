@@ -1,0 +1,11 @@
+.fondo-inicio {
+    background-color: #f8f9fa;
+    padding: 40px;
+}
+
+.footer-personalizado{
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

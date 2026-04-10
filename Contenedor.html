@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bastian</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bastian</a>
+                <button class="navbar-toggler" data-bs-target="collapse" data-bs-target="#Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class ="nav-item"><a class="nav-link"  href="index.html">inicio</a></li>
+                        <li class ="nav-item"><a class="nav-link" href="#">Contenedor</a></li>
+                        <li class ="nav-item"><a class="nav-link" href="contacto.html">contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="contenedor" class ="container my-5">
+            <h2 class="mb-4">Juego favorito</h2>
+
+            <form>
+                <div class="mb-3">
+                    <label>¿Cuántas horas juegas a la semana? v</label>
+                    <input type="number" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label>Juego favorito</label>
+                    <input type="text" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label>Plataforma donde juega</label>
+                    <select class="form-control" required>
+                        <option value="">Seleccione una plataforma</option>
+                        <option value="PC">PC</option>
+                        <option value="PlayStation">PlayStation</option>
+                        <option value="Xbox">Xbox</option>
+                        <option value="Nintendo">Nintendo</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label>Comentario</label>
+                    <textarea class="form-control" placeholder="Ingrese su comentario"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            </section>
+    </main>
+
+    <footer class ="bg-dark text-white text-center py-3">
+        <p>&copy; Nombre: Bastian Roman</p>
+        <a href="https://github.com/bastian-pan">github</a>
+    </footer>
+</body>
+</html>

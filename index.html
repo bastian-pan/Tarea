@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bastian</title>
+</head>
+
+<body>
+<!--  con el header se crea la barra de navegacion, con el nav se le da formato a la barra, con el div se le da un contenedor a la barra,
+    con el a se le da un nombre a la barra, 
+    con el button se crea un boton para que en pantallas pequeñas se pueda desplegar la barra 
+    y con el span se le da formato al boton  -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bastian</a>
+                <button class="navbar-toggler" data-bs-target="collapse" data-bs-target="#Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class ="nav-item"><a class="nav-link"  href="#">inicio</a></li>
+                        <li class ="nav-item"><a class="nav-link" href="Contenedor.html">Contenedor</a></li>
+                        <li class ="nav-item"><a class="nav-link" href="Contacto.html">contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class ="fondo-inicio text-center">
+            <div class="container">
+                <h1 class="mb-4">Bienvenido a Bastian</h1>
+                <img src="IMG/boom.jpg" alt="Imagen de bienvenida" class="img-fluid mb-2">
+
+                <p>Pagina web para tarea.</p>
+
+                <h3 class="mb-4">Explicación de boostrap</h3>
+                <p><strong>container:</strong> se utilizo para centrar el contenido</p>
+                <p><strong>navbar:</strong> se utilizo para crear la barra de navegacion</p>
+
+
+
+            </div>
+        </section>
+    </main>
+    <footer class ="bg-dark text-white text-center py-3">
+        <p>&copy; Nombre: Bastian Roman</p>
+        <a href="https://github.com/bastian-pan">github</a>
+    </footer>
+</body>
+
+</html>
